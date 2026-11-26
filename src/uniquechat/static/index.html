@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>uniquechat</title><link rel="stylesheet" href="/app.css"><script defer src="/app.js"></script></head>
+<body><aside id="side"><strong class="brand"><i>u</i> uniquechat</strong><button id="new">＋ New chat</button><h3>Chat history</h3><nav id="history"></nav><small>Saved in this browser</small></aside>
+<main><header><button id="menu" aria-label="Toggle chat history">☰</button><b id="modelName">Model picker</b><span class="device">● On this device</span></header>
+<section id="picker" class="center"><div class="mark">u</div><h1>Choose your model</h1><p>Download once. Chat locally, even offline.</p><form id="pick"><label for="model">Hugging Face model</label><input id="model" list="models" autocomplete="off" required><datalist id="models"></datalist><div id="details"></div><button class="primary">Load model →</button></form></section>
+<section id="loading" class="center" hidden><div class="spinner"></div><h1>Loading model</h1><p id="phase" role="status"></p></section>
+<section id="conversation" hidden><div id="messages" aria-live="polite"></div><form id="compose"><div id="chips"></div><textarea id="prompt" placeholder="Message your local model…" aria-label="Message"></textarea><div class="tools"><button type="button" id="plus" aria-label="Attach files" title="Attach files">+</button><span id="types"></span><button id="send" class="primary" aria-label="Send message">↑</button></div><input type="file" id="file" hidden multiple></form></section>
+<div id="notice" role="status"></div></main></body></html>

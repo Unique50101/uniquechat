@@ -1,0 +1,2 @@
+include docs/quickstart.gif
+recursive-include tests *.py

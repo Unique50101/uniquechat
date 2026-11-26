@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uniquechat"
+version = "0.1.0"
+description = "Pick a Hugging Face model and chat with it on your own computer."
+readme = "README.md"
+requires-python = ">=3.10,<3.14"
+authors = [{name = "Unique50101"}]
+dependencies = [
+  "transformers>=4.56,<5", "torch>=2.4,<3",
+  "torchvision>=0.19,<1", "Pillow>=10,<13", "huggingface-hub>=0.34,<1"
+]
+
+[project.scripts]
+uniquechat = "uniquechat:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+uniquechat = ["static/*"]
