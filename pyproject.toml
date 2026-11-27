@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "uniquechat"
-version = "0.1.0"
+version = "0.1.1"
 description = "Pick a Hugging Face model and chat with it on your own computer."
 readme = "README.md"
 requires-python = ">=3.10,<3.14"
@@ -22,3 +22,6 @@ where = ["src"]
 
 [tool.setuptools.package-data]
 uniquechat = ["static/*"]
+
+[project.optional-dependencies]
+notebook = ["unique-interface>=0.1.0,<0.2"]
