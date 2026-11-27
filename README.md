@@ -1,5 +1,10 @@
 # uniquechat
 
+## Use in Colab or local Jupyter
+
+[Open the quickstart in Colab](https://colab.research.google.com/github/Unique50101/uniquechat/blob/main/Quickstart.ipynb) or download [Quickstart.ipynb](Quickstart.ipynb) and open it with a Python 3 Jupyter kernel. Run the cells from top to bottom. The model answers in the output cell. Use the same `ask()` function for follow-up messages. The first run downloads the starter model.
+
+
 Choose a Hugging Face model in your browser, attach a file, and chat on your computer. **Once the package and model files are downloaded, the AI can work without internet.**
 
 ![Illustrated walkthrough of running the Python script, selecting a model, loading it, and chatting locally](https://raw.githubusercontent.com/Unique50101/uniquechat/main/docs/quickstart.gif)
