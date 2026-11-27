@@ -1,9 +1,20 @@
 # uniquechat
 
-## Use in Colab or local Jupyter
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Unique50101/uniquechat/blob/main/UniqueChat.ipynb) [![Launch Jupyter](https://img.shields.io/badge/Jupyter-launch-F37626?logo=jupyter&logoColor=white)](https://mybinder.org/v2/gh/Unique50101/uniquechat/main?urlpath=lab%2Ftree%2FUniqueChat.ipynb) [![Open in VS Code](https://img.shields.io/badge/VS_Code-open-007ACC)](https://vscode.dev/github/Unique50101/uniquechat/blob/main/UniqueChat.ipynb)
 
-[Open the quickstart in Colab](https://colab.research.google.com/github/Unique50101/uniquechat/blob/main/Quickstart.ipynb) or download [Quickstart.ipynb](Quickstart.ipynb) and open it with a Python 3 Jupyter kernel. Run the cells from top to bottom. The model answers in the output cell. Use the same `ask()` function for follow-up messages. The first run downloads the starter model.
+## Run the notebook
 
+Open the notebook and run all cells. Once the model loads, type into the black-and-white Unique chat panel. Send, retry the last reply, or clear the conversation. The first model download needs internet. The Jupyter badge launches Binder, a public hosted service. For local files, download [UniqueChat.ipynb](https://raw.githubusercontent.com/Unique50101/uniquechat/main/UniqueChat.ipynb) and open it in local JupyterLab. The VS Code badge opens the notebook editor. Select a Python kernel or open the notebook in desktop VS Code to execute it.
+
+Install the notebook extra with `python -m pip install "uniquechat[notebook]"`. In a Python notebook, run:
+
+```python
+from uniquechat.notebook import launch_chat
+
+panel = launch_chat()
+```
+
+The interface is provided by [Unique Interface](https://github.com/Unique50101/unique-interface). The original [cell-based example](https://github.com/Unique50101/uniquechat/blob/main/Quickstart.ipynb) is also available.
 
 Choose a Hugging Face model in your browser, attach a file, and chat on your computer. **Once the package and model files are downloaded, the AI can work without internet.**
 
