@@ -2,6 +2,12 @@
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Unique50101/uniquechat/blob/main/UniqueChat.ipynb) [![Launch Jupyter](https://img.shields.io/badge/Jupyter-launch-F37626?logo=jupyter&logoColor=white)](https://mybinder.org/v2/gh/Unique50101/uniquechat/main?urlpath=lab%2Ftree%2FUniqueChat.ipynb) [![Open in VS Code](https://img.shields.io/badge/VS_Code-open-007ACC)](https://vscode.dev/github/Unique50101/uniquechat/blob/main/UniqueChat.ipynb)
 
+## Full-page chat and sharing
+
+[Open full-page UniqueChat](https://unique50101-uniquechat.static.hf.space/index.html) · [Duplicate the Space](https://huggingface.co/spaces/unique50101/UniqueChat) · [Python interface documentation](https://github.com/Unique50101/unique-interface#readme)
+
+Press Enter to send. The full-page composer supports Shift+Enter for a new line. The public Space runs the starter model in each visitor's browser. Duplicate the Space and choose Private for restricted access. In the notebook, use `%pip -q install --upgrade unique-interface` to get the compact chat interface.
+
 ## Run the notebook
 
 Open the notebook and run all cells. Once the model loads, type into the black-and-white Unique chat panel. Send, retry the last reply, or clear the conversation. The first model download needs internet. The Jupyter badge launches Binder, a public hosted service. For local files, download [UniqueChat.ipynb](https://raw.githubusercontent.com/Unique50101/uniquechat/main/UniqueChat.ipynb) and open it in local JupyterLab. The VS Code badge opens the notebook editor. Select a Python kernel or open the notebook in desktop VS Code to execute it.
