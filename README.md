@@ -4,11 +4,9 @@
 
 ## Full-page chat and sharing
 
-[Open full-page UniqueChat](https://unique50101-uniquechat.static.hf.space/index.html) · [Duplicate the Space](https://huggingface.co/spaces/unique50101/UniqueChat) · [Python interface documentation](https://uniqueopensources.web.app/docs/unique-interface)
+[Open full-page UniqueChat](https://unique50101-uniquechat.static.hf.space/index.html) · [Duplicate the Space](https://huggingface.co/spaces/unique50101/UniqueChat) · [Python interface documentation](https://github.com/Unique50101/unique-interface#readme)
 
 Press Enter to send. The full-page composer supports Shift+Enter for a new line. The public Space runs the starter model in each visitor's browser. Duplicate the Space and choose Private for restricted access. In the notebook, use `%pip -q install --upgrade unique-interface` to get the compact chat interface.
-
-To share your own Python chat callback while your runtime is running, use `ChatInterface(reply).launch(share=True)`. The developer guide covers callback arguments, streaming replies, and response timing.
 
 ## Run the notebook
 
